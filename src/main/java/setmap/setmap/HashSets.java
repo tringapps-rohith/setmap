@@ -23,7 +23,7 @@ class HashSets
                 hs.remove("TA");
                 l.log(Level.INFO,()-> "HashSet is "+hs);
                 Map<String,String>mp=new TreeMap<>();
-                mp.put("Hi","Im vijay");
+                
                 mp.put("Hello","Im Vijay");
                 mp.put("Hi","Im Rohith");
                mp.put("How r u","students");
@@ -41,7 +41,7 @@ class HashSets
                 ts.remove("TA");
                 l.log(Level.INFO,()->"\nTree Set is "+ts);
                 Map<String,String>hm=new HashMap<>();
-                hm.put(" Hi","Im vijay");
+             
                 hm.put(" Hello","Im Vijay");
                 hm.put(" Hi","Im Rohith");
                 hm.put(" How r u","students");
