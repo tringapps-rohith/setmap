@@ -33,7 +33,6 @@ class HashSets
                 l.log(Level.INFO,()-> "HashSet is "+hs);
 				break;
 				case 2:  Set<String> ts=new TreeSet<>();
-                ts.add("Hello");
                 ts.add("Rohith");
                 ts.add("Where");
                 ts.add("Are");
@@ -47,7 +46,6 @@ class HashSets
 				   Map<String,String>hm=new HashMap<>();
                 hm.put("Hi","Im vijay");
                 hm.put("Hello","Im Vijay");
-                hm.put("Hi","Im Rohith");
                 hm.put("How r u","students");
 				 hm.put("hj","tr");
                 hm.remove("hj");
@@ -57,7 +55,6 @@ class HashSets
                 Map<String,String>mp=new TreeMap<>();
                 mp.put("Hi","Im vijay");
                 mp.put("Hello","Im Vijay");
-                mp.put("Hi","Im Rohith");
                mp.put("How r u","students");
 			    mp.put("hj","tr");
                mp.remove("hj");
